@@ -63,16 +63,6 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.vimalselvam</groupId>
-			<artifactId>cucumber-extentsreport</artifactId>
-			<version>3.0.2</version>
-		</dependency>
-		<dependency>
-			<groupId>com.aventstack</groupId>
-			<artifactId>extentreports</artifactId>
-			<version>3.1.2</version>
-		</dependency>
-		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
 			<version>${spring.version}</version>
@@ -257,33 +247,6 @@
 				</configuration>
 			</plugin>
 			<!-- end of release -->
-
-			<!-- begin of maven site -->
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-javadoc-plugin</artifactId>
-				<version>2.10.4</version>
-				<configuration>
-					<source>${jdk.version}</source>
-					<additionalparam>-Xdoclint:none</additionalparam>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-site-plugin</artifactId>
-				<version>3.4</version>
-				<configuration>
-					<!-- Build, even if tests fail -->
-					<testFailureIgnore>true</testFailureIgnore>
-				</configuration>
-				<dependencies>
-					<dependency>
-						<groupId>org.apache.maven.wagon</groupId>
-						<artifactId>wagon-webdav-jackrabbit</artifactId>
-						<version>2.9</version>
-					</dependency>
-				</dependencies>
-			</plugin>
 			<plugin>
 				<groupId>net.masterthought</groupId>
 				<artifactId>maven-cucumber-reporting</artifactId>
@@ -296,7 +259,7 @@
 							<goal>generate</goal>
 						</goals>
 						<configuration>
-							<projectName>ABILITY | EASE Medicare</projectName>
+							<projectName>Zooplus-SystemTest</projectName>
 							<outputDirectory>${project.build.directory}/cucumber-reports</outputDirectory>
 							<cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
 							<skippedFails>true</skippedFails>
