@@ -1,6 +1,6 @@
 # About This Project
 
-This project is a simple framework solution to validate the asset filters on https://www.wolf-of-wilderness.com application , when search products with
+This project is a simple framework solution to validate the asset filters on https://www.wolf-of-wilderness.com application , when search products with some default asset filters and relavence food flavour
 
 # Tools , Approaches and Technologies Used
 
