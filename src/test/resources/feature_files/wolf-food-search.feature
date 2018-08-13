@@ -11,8 +11,4 @@ Feature: Wolf Food Product Search
     Examples: 
       | country     | foodCategory | foodFlavour |
       | Deutschland | Nassfutter   | Lamm        |
-      | Deutschland | Trockenfutter| Fisch       |
-      | Deutschland | Snacks       | Hase        |
-      | Niederlande | Droogvoer    | Gevogelte   |
-      | Niederlande | Natvoer      | Wild        |
  
