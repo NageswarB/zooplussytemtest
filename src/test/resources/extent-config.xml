@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+	<configuration>
+		<theme>dark</theme>
+		<encoding>UTF-8</encoding>
+		<documentTitle>ABILITY | EASE Medicare Automation Report
+		</documentTitle> <!-- This title will be displayed as browser title for the page -->
+		<reportName>ABILITY | EASE Medicare - </reportName>  <!-- This will be your report heading -->
+		<reportHeadline>Automation Report</reportHeadline>
+	</configuration>
+</extentreports>
